@@ -40,7 +40,8 @@ body {
     align-items: center;
     gap: 10px;
     width: 500px;
-    padding: 2.3em;
+    padding-inline: 2.3em;
+    padding-top: 2.3em;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     /* border: 2px solid red; */
@@ -72,6 +73,18 @@ body {
     justify-content: center;
     align-items: center;
     gap: 1em;
+    padding-bottom: 3em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    /* border: 2px solid blue; */
+    padding-inline: 2.3em;
+    padding-top: 1.5em;
+}
+
+.about {
+    color: var(--clr-white);
+    margin-bottom: 1.4em;
+    font-size: 14px;
 }
 
 button {
@@ -83,9 +96,14 @@ button {
     width: 400px;
     cursor: pointer;
     font-size: 15px;
-    border-radius: 0.6em
+    border-radius: 0.6em;
+    transition: background-color 0.4s, color 0.4s;
 }
 
+button:hover {
+    background-color: var(--clr-green);
+    color: #141414;
+}
 
 
 
